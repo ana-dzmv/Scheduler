@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+aside, main {
+    float: left;
+    padding: 20px 80px;
+}
+
+aside {
+    width: 20%;
+    background-color: beige;
+}
+
+main {
+    width: 50%;
+    background-color: lightblue;
+}
+
+.schedule-container, .time-slot-row, .day {
+    float: left;
+}
+
+.day, .empty, .full {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.day {
+    background-color: lightcyan;
+}
