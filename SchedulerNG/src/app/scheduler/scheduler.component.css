@@ -1,0 +1,17 @@
+.schedule-container, .time-slot-row, .day {
+    float: left;
+}
+
+.day, .empty, .full {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.day {
+    background-color: lightcyan;
+}
